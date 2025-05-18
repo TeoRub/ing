@@ -1,141 +1,202 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeFlix Reviews | Reviews</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>RetroTech Hub - Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-<a href="index.html"><img src="https://rubinomatteo.github.io/lavoriScuola/rubi.jpg" alt="Your Logo" class="logo"></a>
+  <div class="scanline"></div>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <div class="logo">R-TECH</div>
+        <div class="blink">_</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">> HOME</a></li>
+          <li><a href="reviews.html" class="active">> REVIEWS</a></li>
+          <li><a href="interviews.html">> INTERVIEWS</a></li>
+          <li><a href="theories.html">> THEORIES</a></li>
+          <li><a href="rankings.html">> RANKINGS</a></li>
+                    <li><a href="news.html">> NEWS</a></li>
+          <li><a href="about.html">> ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="interviews.html">Nerdy Interviews</a></li>
-        <li><a href="whatif.html">What If…</a></li>
-        <li><a href="top5.html">Top 5</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <section class="hero">
+        <div class="glitch" data-text="SYSTEM REVIEWS">SYSTEM REVIEWS</div>
+        <p class="subtitle">ANALYZING DIGITAL ARTIFACTS: GAMES, FILMS, SERIES</p>
+        <div class="pixelated-divider"></div>
+      </section>
 
-<main>
-  <section class="hero">
-    <h1>Our Nerdy Reviews</h1>
-    <p>Anime, TV series, games, and movies: if it's nerdy, we review it!</p>
-  </section>
+      <section class="reviews-container">
+        <!-- BLACK MIRROR -->
+        <div class="review-card">
+          <div class="review-header">
+            <h2>BLACK MIRROR</h2>
+            <div class="rating">
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star"></span>
+            </div>
+          </div>
+          <div class="review-meta">
+            <span class="reviewer">USER: GIULIA</span>
+            <span class="review-date">TIMESTAMP: 2025.04.18</span>
+          </div>
+          <div class="review-quote">
+            <p>"BLACK MIRROR DEPICTS A DIGITAL DYSTOPIA WHERE TECHNOLOGY IS NOT MERELY A TOOL, BUT AN ALL-CONSUMING OBSESSION."</p>
+          </div>
 
-  <section class="reviews">
-    <!-- BLACK MIRROR -->
-    <div class="review-card">
-      <h2>Black Mirror (Netflix)</h2>
-      <p class="reviewer">Reviewer: Giulia (Tech Reviewer)</p>
-      <blockquote>
-        "Black Mirror represents a future where technology is not just a tool, but an obsession."
-      </blockquote>
+          <div class="tech-specs">
+            <h3>[ TECH ANALYSIS ]</h3>
+            <ul class="specs-list">
+              <li>ARTIFICIAL INTELLIGENCE</li>
+              <li>DIGITAL SURVEILLANCE</li>
+              <li>AUGMENTED REALITY</li>
+            </ul>
+          </div>
 
-      <h3>🔧 Technological Aspects:</h3>
-      <ul>
-        <li>AI (Artificial Intelligence)</li>
-        <li>Digital Surveillance</li>
-        <li>Augmented Reality</li>
-      </ul>
+          <div class="terminal-comment">
+            <p>$ echo "IF THE CHARACTERS HAD IMPLEMENTED DECENTRALIZED SECURITY PROTOCOLS, MANY EPISODES WOULD HAVE DRASTICALLY DIFFERENT OUTCOMES."</p>
+          </div>
+        </div>
 
-      <h3>🧠 Tech Comment:</h3>
-      <p class="tech-comment">
-        "If the characters had used decentralized security protocols, many episodes would have had a different ending."
-      </p>
-    </div>
+        <!-- IRON MAN -->
+        <div class="review-card">
+          <div class="review-header">
+            <h2>IRON MAN (2008)</h2>
+            <div class="rating">
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+            </div>
+          </div>
+          <div class="review-meta">
+            <span class="reviewer">USER: MARCO</span>
+            <span class="review-date">TIMESTAMP: 2025.03.05</span>
+          </div>
+          <div class="review-quote">
+            <p>"THE ARCHITECTURE POWERING J.A.R.V.I.S. REMAINS PURELY THEORETICAL, YET REMARKABLY COMPELLING."</p>
+          </div>
 
-    <!-- IRON MAN -->
-    <div class="review-card">
-      <h2>Iron Man (2008)</h2>
-      <p class="reviewer">Reviewer: Marco (Tech Expert)</p>
-      <blockquote>
-        "The code behind J.A.R.V.I.S. is pure science fiction... but fascinating!"
-      </blockquote>
+          <div class="tech-specs">
+            <h3>[ TECH ANALYSIS ]</h3>
+            <ul class="specs-list">
+              <li>AUTONOMOUS AI</li>
+              <li>CAD SYSTEMS</li>
+              <li>NEURAL INTERFACES</li>
+            </ul>
+          </div>
 
-      <h3>💻 Technological Aspects:</h3>
-      <ul>
-        <li>Autonomous Artificial Intelligence</li>
-        <li>Assisted Design (CAD)</li>
-        <li>Neural Interfaces</li>
-      </ul>
+          <div class="terminal-comment">
+            <p>$ echo "IF STARK INDUSTRIES HAD EMBRACED OPEN-SOURCE DEVELOPMENT, THEIR R&D COSTS WOULD HAVE DECREASED BY AN ESTIMATED 78.6%."</p>
+          </div>
+        </div>
 
-      <h3>💡 What If Sentence:</h3>
-      <p class="tech-comment">
-        "If Tony Stark had used open-source software, he would have saved billions."
-      </p>
-    </div>
+        <!-- THE MATRIX -->
+        <div class="review-card">
+          <div class="review-header">
+            <h2>THE MATRIX (1999)</h2>
+            <div class="rating">
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+            </div>
+          </div>
+          <div class="review-meta">
+            <span class="reviewer">USER: LAURA</span>
+            <span class="review-date">TIMESTAMP: 2025.02.22</span>
+          </div>
+          <div class="review-quote">
+            <p>"A CORNERSTONE OF DEVELOPER CULTURE. THE CASCADING GREEN CODE SEQUENCES HAVE BECOME ICONIC IN PROGRAMMING CIRCLES."</p>
+          </div>
 
-    <!-- THE MATRIX -->
-    <div class="review-card">
-      <h2>The Matrix (1999)</h2>
-      <p class="reviewer">Reviewer: Laura</p>
-      <blockquote>
-        "A cult film for every programmer. The green code literally runs on the screen."
-      </blockquote>
+          <div class="tech-specs">
+            <h3>[ TECH ANALYSIS ]</h3>
+            <ul class="specs-list">
+              <li>MACHINE LANGUAGE</li>
+              <li>SIMULATED REALITY</li>
+              <li>SYSTEM ARCHITECTURE</li>
+            </ul>
+          </div>
 
-      <h3>📂 Tech Details:</h3>
-      <ul>
-        <li>Machine Language</li>
-        <li>Simulated Reality</li>
-        <li>Concept of ‘System’</li>
-      </ul>
+          <div class="terminal-comment">
+            <p>$ echo "KEANU REEVES REPORTEDLY STUDIED BASIC UNIX COMMANDS TO PREPARE FOR HIS ROLE AS NEO, ENHANCING THE AUTHENTICITY OF HIS PERFORMANCE."</p>
+          </div>
+        </div>
 
-      <h3>💬 Reported Speech:</h3>
-      <p class="tech-comment">
-        "Keanu Reeves said that he learned some Linux commands to better immerse himself in the role."
-      </p>
-    </div>
+        <!-- CYBERPUNK 2077 -->
+        <div class="review-card">
+          <div class="review-header">
+            <h2>CYBERPUNK 2077</h2>
+            <div class="rating">
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star filled"></span>
+              <span class="pixel-star"></span>
+              <span class="pixel-star"></span>
+            </div>
+          </div>
+          <div class="review-meta">
+            <span class="reviewer">USER: ALEX</span>
+            <span class="review-date">TIMESTAMP: 2025.01.10</span>
+          </div>
+          <div class="review-quote">
+            <p>"CYBERPUNK 2077 CREATES A VISUALLY STUNNING DIGITAL METROPOLIS, DESPITE INITIAL SYSTEM INSTABILITIES."</p>
+          </div>
 
-    <!-- NEW REVIEW -->
-    <div class="review-card">
-      <h2>Cyberpunk 2077 (2020)</h2>
-      <p class="reviewer">Reviewer: Alex (Game Enthusiast)</p>
-      <blockquote>
-        "Cyberpunk 2077 offers a visually stunning and immersive experience, despite its initial technical issues."
-      </blockquote>
+          <div class="tech-specs">
+            <h3>[ TECH ANALYSIS ]</h3>
+            <ul class="specs-list">
+              <li>OPEN WORLD ARCHITECTURE</li>
+              <li>RAY TRACING ALGORITHMS</li>
+              <li>AI-DRIVEN NPC SYSTEMS</li>
+            </ul>
+          </div>
 
-      <h3>🔧 Technological Aspects:</h3>
-      <ul>
-        <li>Open World Design</li>
-        <li>Ray Tracing Technology</li>
-        <li>AI-driven NPCs</li>
-      </ul>
+          <div class="terminal-comment">
+            <p>$ echo "THE IMPLEMENTATION OF REAL-TIME RAY TRACING ESTABLISHES A NEW BENCHMARK FOR VISUAL FIDELITY IN INTERACTIVE ENTERTAINMENT."</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <h3>🧠 Tech Comment:</h3>
-      <p class="tech-comment">
-        "The game's use of ray tracing technology sets a new standard for visual realism in gaming."
-      </p>
-    </div>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="team-footer">
-    <h3>👾 Meet the Team</h3>
-    <ul>
-      <li><strong>👩‍💻 Matteo Rubino</strong> – </li>
-      <li><strong>👩‍🔬 Matteo Caenazzo</strong> – </li>
-      <li><strong>🎙️ Daniele Kim</strong> – </li>
-      <li><strong>🎬 Filippo Monteverdi</strong> – </li>
-    </ul>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3><span class="bracket">[</span> SYSTEM ADMINS <span class="bracket">]</span></h3>
+          <ul>
+            <li>MATTEO.R - Chief Algorithm Architect</li>
+            <li>MATTEO.C - Quantum Computing Specialist</li>
+            <li>DANIELE.K - Neural Network Engineer</li>
+            <li>FILIPPO.M - Holographic Interface Designer</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3><span class="bracket">[</span> CONNECT <span class="bracket">]</span></h3>
+          <ul class="social-links">
+            <li><a href="#" target="_blank">IRC.CHANNEL</a></li>
+            <li><a href="#" target="_blank">BBS.BOARD</a></li>
+            <li><a href="#" target="_blank">USENET.GROUP</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2025 RETROTECH HUB // ALL RIGHTS RESERVED // V1.0.2</p>
+    </footer>
   </div>
-
-  <div class="social-media">
-    <h3>Follow Us</h3>
-    <ul>
-      <li><a href="https://twitter.com/CodeFlixReviews" target="_blank">Twitter</a></li>
-      <li><a href="https://facebook.com/CodeFlixReviews" target="_blank">Facebook</a></li>
-      <li><a href="https://instagram.com/CodeFlixReviews" target="_blank">Instagram</a></li>
-    </ul>
-  </div>
-
-  <p class="footer-credit">© 2025 CodeFlix. All rights reserved.</p>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>

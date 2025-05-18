@@ -1,93 +1,118 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeFlix Reviews</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>RetroTech Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <div class="scanline"></div>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <div class="logo">R-TECH</div>
+        <div class="blink">_</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">> HOME</a></li>
+          <li><a href="reviews.html">> REVIEWS</a></li>
+          <li><a href="interviews.html">> INTERVIEWS</a></li>
+          <li><a href="theories.html">> THEORIES</a></li>
+          <li><a href="rankings.html">> RANKINGS</a></li>
+          <li><a href="news.html">> NEWS</a></li>
+          <li><a href="about.html">> ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<a href="index.html"><img src="https://rubinomatteo.github.io/lavoriScuola/rubi.jpg" alt="Your Logo" class="logo"></a>
+    <main>
+      <section class="hero">
+        <div class="glitch" data-text="RETROTECH HUB">RETROTECH HUB</div>
+        <p class="subtitle">YOUR PORTAL TO DIGITAL NOSTALGIA AND NERD CULTURE</p>
+        <div class="pixelated-divider"></div>
+      </section>
 
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="reviews.html">Reviews</a></li>
-        <li><a href="interviews.html">Nerdy Interviews</a></li>
-        <li><a href="whatif.html">What If…</a></li>
-        <li><a href="top5.html">Top 5</a></li>
-      </ul>
-    </nav>
+      <section class="terminal">
+        <div class="terminal-header">
+          <span class="terminal-title">latest_articles.exe</span>
+          <div class="terminal-buttons">
+            <span class="terminal-button"></span>
+            <span class="terminal-button"></span>
+            <span class="terminal-button"></span>
+          </div>
+        </div>
+        <div class="terminal-content">
+          <p class="command">$ cat latest_articles.txt</p>
+          <div class="articles">
+            <article>
+              <h3>[ MATRIX TECH ANALYSIS ]</h3>
+              <p>C:\> Discovering the architectural foundations that made The Matrix a cyberpunk masterpiece.</p>
+            </article>
+            <article>
+              <h3>[ DEVELOPER INTERVIEW ]</h3>
+              <p>C:\> Terminal conversation with a veteran game developer about the industry's future.</p>
+            </article>
+            <article>
+              <h3>[ SCI-FI CINEMA RANKINGS ]</h3>
+              <p>C:\> Our comprehensive analysis of the most influential sci-fi films in computing history.</p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  </header>
-  <main>
-    <section class="hero">
-  <h1>Welcome to CodeFlix Reviews!</h1>
-  <p>Your ultimate destination for nerdy reviews, interviews, and theories.</p>
-</section>
+      <section class="team">
+        <h2><span class="bracket">[</span> SYSTEM ADMINS <span class="bracket">]</span></h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="pixel-avatar"></div>
+            <h3>FILIPPO.M</h3>
+            <p>Fatto il sito con chatgpt e max</p>
+          </div>
+          <div class="team-member">
+            <div class="pixel-avatar"></div>
+            <h3>DANIELE.K</h3>
+            <p>Aiutato</p>
+          </div>
+          <div class="team-member">
+            <div class="pixel-avatar"></div>
+            <h3>MATTEO.R</h3>
+            <p>Neinte</p>
+          </div>
+          <div class="team-member">
+            <div class="pixel-avatar"></div>
+            <h3>MATTEO.C</h3>
+            <p>Niente</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<section class="latest-articles">
-  <h2>📰 Latest Articles</h2>
-  <article>
-    <h3>Exploring the Tech Behind The Matrix</h3>
-    <p>Discover the groundbreaking technology that made The Matrix a cult classic.</p>
-  </article>
-  <article>
-    <h3>Interview with a Game Developer</h3>
-    <p>We sit down with a renowned game developer to discuss the future of gaming.</p>
-  </article>
-  <article>
-    <h3>Top 5 Sci-Fi Movies of All Time</h3>
-    <p>Our picks for the top 5 sci-fi movies that every nerd should watch.</p>
-  </article>
-</section>
-
-<section class="team-section">
-  <h2>👾 Meet the Team</h2>
-  <div class="team-grid">
-    <div class="team-member">
-      <h3>👩‍💻 Matteo Rubino</h3>
-    </div>
-    <div class="team-member">
-      <h3>👩‍🔬 Matteo Caenazzo</h3>
-    </div>
-    <div class="team-member">
-      <h3>🎙️ Daniele Kim</h3>
-    </div>
-    <div class="team-member">
-      <h3>🎬 Filippo Monteverdi</h3>
-    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3><span class="bracket">[</span> SYSTEM ADMINS <span class="bracket">]</span></h3>
+          <ul>
+            <li>MATTEO.R - Chief Algorithm Architect</li>
+            <li>MATTEO.C - Quantum Computing Specialist</li>
+            <li>DANIELE.K - Neural Network Engineer</li>
+            <li>FILIPPO.M - Holographic Interface Designer</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3><span class="bracket">[</span> CONNECT <span class="bracket">]</span></h3>
+          <ul class="social-links">
+            <li><a href="#" target="_blank">IRC.CHANNEL</a></li>
+            <li><a href="#" target="_blank">BBS.BOARD</a></li>
+            <li><a href="#" target="_blank">USENET.GROUP</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2025 RETROTECH HUB // ALL RIGHTS RESERVED // V1.0.2</p>
+    </footer>
   </div>
-</section> 
-  </main>
-
-
-<footer class="site-footer">
-  <div class="team-footer">
-    <h3>👾 Meet the Team</h3>
-    <ul>
-      <li><strong>👩‍💻 Matteo Rubino</strong> – </li>
-      <li><strong>👩‍🔬 Matteo Caenazzo</strong> – </li>
-      <li><strong>🎙️ Daniele Kim</strong> – </li>
-      <li><strong>🎬 Filippo Monteverdi</strong> – </li>
-    </ul>
-  </div>
-
-  <div class="social-media">
-    <h3>Follow Us</h3>
-    <ul>
-      <li><a href="https://twitter.com/CodeFlixReviews" target="_blank">Twitter</a></li>
-      <li><a href="https://facebook.com/CodeFlixReviews" target="_blank">Facebook</a></li>
-      <li><a href="https://instagram.com/CodeFlixReviews" target="_blank">Instagram</a></li>
-    </ul>
-  </div>
-
-  <p class="footer-credit">© 2025 CodeFlix. All rights reserved.</p>
-</footer>
-
-
+  <script src="script.js"></script>
 </body>
 </html>
