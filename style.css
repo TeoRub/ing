@@ -6,15 +6,15 @@
 }
 
 body {
-  background-color: #121212;
-  color: #f2f2f2;
-  font-family: 'Press Start 2P', monospace;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-family: 'Courier New', Courier, monospace;
   background-image: url('https://www.transparenttextures.com/patterns/pixel-weave.png'); /* pixel background */
 }
 /* Header - Logo */
 header {
-  background-color: #1e1e1e;
-  border-bottom: 2px solid #00ffcc;
+  background-color: #2a2a2a;
+  border-bottom: 2px solid #ffcc00;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ nav .menu li {
 
 nav .menu a {
   text-decoration: none;
-  color: #00ffcc;
+  color: #ffcc00;
   transition: color 0.3s;
 }
 
@@ -56,7 +56,7 @@ nav .menu a:hover {
 .hero h1 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #00ffcc;
+  color: #ffcc00;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -65,6 +65,40 @@ nav .menu a:hover {
   max-width: 600px;
   margin: 0 auto;
   color: #cccccc;
+}
+
+/* Latest Articles Section */
+.latest-articles {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.latest-articles h2 {
+  font-size: 1.2rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.latest-articles article {
+  background-color: #2a2a2a;
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 10px #ffcc0055;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.latest-articles article h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.latest-articles article p {
+  font-size: 0.85rem;
+  color: #e0e0e0;
 }
 
 /* Responsive */
@@ -88,16 +122,16 @@ nav .menu a:hover {
 }
 
 .review-card {
-  background-color: #1e1e1e;
-  border: 2px solid #00ffcc;
-  box-shadow: 0 0 10px #00ffcc55;
+  background-color: #2a2a2a;
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 10px #ffcc0055;
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 8px;
 }
 
 .review-card h2 {
-  color: #00ffcc;
+  color: #ffcc00;
   margin-bottom: 10px;
   font-size: 1rem;
 }
@@ -113,7 +147,7 @@ nav .menu a:hover {
   color: #cccccc;
   background: #2a2a2a;
   padding: 10px 15px;
-  border-left: 4px solid #00ffcc;
+  border-left: 4px solid #ffcc00;
   margin: 10px 0 20px 0;
 }
 
@@ -135,13 +169,13 @@ nav .menu a:hover {
   margin-top: 10px;
   background-color: #222;
   padding: 10px;
-  border-left: 3px solid #00ffcc;
+  border-left: 3px solid #ffcc00;
 }
 .team-section {
   padding: 60px 20px;
   background-color: #1a1a1a;
-  border-top: 2px solid #00ffcc;
-  border-bottom: 2px solid #00ffcc;
+  border-top: 2px solid #ffcc00;
+  border-bottom: 2px solid #ffcc00;
   text-align: center;
 }
 
@@ -161,10 +195,10 @@ nav .menu a:hover {
 
 .team-member {
   background-color: #2a2a2a;
-  border: 2px solid #00ffcc;
+  border: 2px solid #ffcc00;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #00ffcc44;
+  box-shadow: 0 0 10px #ffcc0044;
   transition: transform 0.3s;
 }
 
@@ -196,13 +230,13 @@ nav .menu a:hover {
 }
 
 .quote {
-  background-color: #1e1e1e;
-  border-left: 5px solid #00ffcc;
+  background-color: #2a2a2a;
+  border-left: 5px solid #ffcc00;
   margin: 20px 0;
   padding: 20px;
   font-size: 0.85rem;
   color: #e0e0e0;
-  box-shadow: 0 0 10px #00ffcc33;
+  box-shadow: 0 0 10px #ffcc0033;
   text-shadow: 1px 1px 1px #000;
 }
 .interview-section {
@@ -213,7 +247,7 @@ nav .menu a:hover {
 }
 
 .interview-section h2 {
-  color: #00ffcc;
+  color: #ffcc00;
   font-size: 1.1rem;
   margin-bottom: 10px;
 }
@@ -225,11 +259,11 @@ nav .menu a:hover {
 }
 
 .quote {
-  background-color: #1e1e1e;
-  border-left: 4px solid #00ffcc;
+  background-color: #2a2a2a;
+  border-left: 4px solid #ffcc00;
   padding: 15px;
   margin-bottom: 20px;
-  box-shadow: 0 0 8px #00ffcc33;
+  box-shadow: 0 0 8px #ffcc0033;
   font-size: 0.85rem;
   color: #f0f0f0;
 }
@@ -246,7 +280,7 @@ nav .menu a:hover {
 
 .top5-section h2 {
   font-size: 1rem;
-  color: #00ffcc;
+  color: #ffcc00;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -260,7 +294,7 @@ nav .menu a:hover {
 
 .top5-list li {
   margin-bottom: 15px;
-  background-color: #1e1e1e;
+  background-color: #2a2a2a;
   padding: 15px;
   border-left: 4px solid #ff4081;
   box-shadow: 0 0 6px #ff408155;
@@ -280,11 +314,11 @@ nav .menu a:hover {
   font-weight: bold;
 }
 .site-footer {
-  background-color: #1e1e1e;
+  background-color: #2a2a2a;
   padding: 40px 20px;
   text-align: center;
-  border-top: 2px solid #00ffcc;
-  color: #f2f2f2;
+  border-top: 2px solid #ffcc00;
+  color: #e0e0e0;
   font-size: 0.8rem;
 }
 
@@ -306,7 +340,7 @@ nav .menu a:hover {
 }
 
 .team-footer strong {
-  color: #00ffcc;
+  color: #ffcc00;
 }
 
 .footer-credit {
